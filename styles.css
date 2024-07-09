@@ -47,6 +47,7 @@ input {
 
 input::placeholder {
     color: #aaa;
+    font-size: 0.9em; /* Tamaño de letra reducido para el placeholder */
 }
 
 .suggestions {
