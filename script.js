@@ -18,7 +18,7 @@ document.getElementById('calculatorForm').addEventListener('submit', function(ev
     const paceMinutes = Math.floor(paceSeconds / 60);
     const remainingSeconds = Math.floor(paceSeconds % 60);
     
-    document.getElementById('result').innerText = `Ritmo: ${paceMinutes} minutos ${remainingSeconds} segundos por km`;
+    document.getElementById('result').innerText = `Ritmo medio: ${paceMinutes}:${remainingSeconds} min/km`;
 });
 
 function setDistance(value) {
